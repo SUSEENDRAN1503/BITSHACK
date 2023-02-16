@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills-Bit</title>
+    <link rel="icon" type="image/x-icon" href="IMAGES1\ICON.ico">
+    <link rel="stylesheet" href="style_home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="styleindex.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="IMAGES1\logo_new-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><div class="dropdown">
+                          <button class="dropbtn">Login
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content">
+                              <a href="https://bip.bitsathy.ac.in/nova/dashboards/main">Admin</a>
+                              <a href="home.html">Student</a>
+                          </div></li>
+                </ul>
+            </div>
+
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <!---Course----->
+    <section class="course">
+        <h1>REWARD POINTS</h1>
+        <div class="row_1">
+            <div class="course-col">
+              <h3>The reward points can be obtained by following ways:</h3>
+            </div>
+            <div class="course-col">
+                <p>TECHNICAL EVENTS</p>
+                <p>SKILLS</p>
+                <p>ASSIGNMENTS</p>
+                <p>INTERVIEW</p>
+                <p>FACULTY INITIATIVES</p>
+                <p>SPECIAL LAB INITIATIVES</p>
+                <p>TECHNICAL SOCIETY ACTIVITIES</p>
+                <p>EXTERNAL EVENTS</p>
+                <p>EXTRA-CURRICULAR ACTIVITIES</p>
+            </div>
+
+    </section>
+    <webview src="https://www.github.com/" allowpopups></webview>
+
+
+    <!---Footer------------->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p> SKILL DEVELOPMENT TEAM @ BANNARI AMMAN INSTITUTE OF TECHNOLOGY, SATHYAMANGALAM</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by BIT'S HACK'22 </p>
+    </section>
+
+    <!---JavaScript for Toogle Menu-------------->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right="0";
+       }
+       function hideMenu(){
+           navLinks.style.right="-200px";
+       }
+   </script>
+
+</body>
+</html>

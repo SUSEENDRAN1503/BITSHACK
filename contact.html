@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="icon" type="image/x-icon" href="IMAGES1\ICON.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="IMAGES1\logo_new-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d663.1075167916928!2d77.27876881944914!3d11.495840713506388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9215be3117f2d%3A0x269fe2bb4f11fb20!2sMechanical%20block!5e1!3m2!1sen!2sin!4v1669187130818!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <section class="course"><div class="row_1"><div class="course-col"><p>Dear Students,<br><br>As you are aware that there are many reward point activities being organized by the Faculty, Special Lab, Skill team  and Reward Point Team for students at regular intervals. In connection with any queries or clarifications regarding any of the reward point activities, the students are asked to communicate through the below Email IDs.</p>
+        </div></div></section>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Bannari Amman Institute of Technology College </h5>
+                        <p>Sathyamangalam, Tamil Nadu, in</p>
+                    </span>
+                </div>
+                <hr>
+                <p>Email us your query</p>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>skills@bitsathy.ac.in</h5>
+                        <p>Days skill & Night skill</p>
+                        <br>
+                        <h5>rewards@bitsathy.ac.in</h5>
+                        <p>Reward Points Redemption / Rewards Dashboard</p>
+                        <br>
+                        <h5>rewardssoftwareskills@bitsathy.ac.in</h5>
+                        <p>Software skills</p>
+                        <br>
+                        <h5>rewardsassignments@bitsathy.ac.in</h5>
+                        <p>Assignment</p>
+                        <br>
+                        <h5>rewardsinterview@bitsathy.ac.in</h5>
+                        <p>Internship Interview, Workshop/Webinar/Guest Lecture Interview, Other language Training </p>
+                        <br>
+                        <h5>elcc@bitsathy.ac.in</h5>
+                        <p>Communication Interview</p>
+                    </span>
+                </div>
+                <hr>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Faculty Initiatives</h5>
+                        <p>Concerned Faculty incharge.</p>
+                        <br>
+                        <h5>Outcome based lab task</h5>
+                        <p>Concerned subject handling Faculty.</p>
+                        <br>
+                        <h5>Special lab related reward points activities</h5>
+                        <p>Concerned Special lab in charge</p>
+
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+              <p>General Queries</p>
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!---Footer------------->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p> SKILL DEVELOPMENT TEAM @ BANNARI AMMAN INSTITUTE OF TECHNOLOGY, SATHYAMANGALAM</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by BIT'S HACK'22 </p>
+    </section>
+
+    <!---JavaScript for Toogle Menu-------------->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right="0";
+       }
+       function hideMenu(){
+           navLinks.style.right="-200px";
+       }
+   </script>
+
+</body>
+</html>

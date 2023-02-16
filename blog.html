@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="icon" type="image/x-icon" href="IMAGES1\ICON.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="IMAGES1\logo_new-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Achievement & Awards</h1>
+    </section>
+    <!---BLOG PAGE CONTENT----------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="IMAGES/awards.png">
+                <h2>Our Achievement & Awards</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores doloremque, voluptas est voluptatem consequatur sint similique earum? Ducimus, officia. Similique aperiam doloremque voluptatum qui est cupiditate sunt molestias quo quasi!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime hic ad doloribus. Adipisci impedit illo eum, similique quia nulla ad error ea, accusantium vero iusto labore expedita neque eveniet animi!</p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem perspiciatis vero, dolorem ipsa fuga ratione quidem velit at, eveniet libero ipsam blanditiis molestias omnis dignissimos ab deleniti quam fugiat quas.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde suscipit iste error eum mollitia nisi provident doloremque quasi veniam. Tenetur repudiandae odio rerum maiores cupiditate sequi ullam debitis doloremque.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learnig</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---Footer------------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p> SKILL DEVELOPMENT TEAM @ BANNARI AMMAN INSTITUTE OF TECHNOLOGY, SATHYAMANGALAM</p>
+        <div class="icons">
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-instagram"></i>
+           <i class="fa fa-linkedin"></i>
+       </div>
+       <p>Made with <i class="fa fa-heart-o"></i> by BIT'S HACK'22 </p>
+   </section>
+
+    <!---JavaScript for Toogle Menu-------------->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right="0";
+       }
+       function hideMenu(){
+           navLinks.style.right="-200px";
+       }
+   </script>
+
+</body>
+</html>

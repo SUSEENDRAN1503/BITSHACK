@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills-Bit</title>
+    <link rel="icon" type="image/x-icon" href="IMAGES1\ICON.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="IMAGES1\logo_new-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="home.html">HOME</a></li>
+                    <li><a href="STUDENTS' DASHBOARD.html" target="_blank" rel="noopener noreferrer">STUDENTS' DASHBOARD</a></li>
+                    <li><a href="DETAILED REWARD POINTS.html" target="_blank" rel="noopener noreferrer">DETAILED REWARD POINTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1></h1>
+        <p><br></p>
+        <a href="https://bip.bitsathy.ac.in/nova/dashboards/main" target="_blank" rel="noopener noreferrer" class="hero-btn">Register for Rewards points</a>
+    </div>
+    </section>
+
+    <!--Course----->
+    <section class="course">
+        <h1>INSTRUCTIONS FOR REDEMPTION</h1>
+        <div class="row_1">
+            <div class="course-col">
+                <p>Students are instructed to visit the students' dashboard in the reward points site and verify the redeemed reward points (Done by rewards team) & internal marks of all subjects during the stipulated time.</p>
+            </div>
+            <div class="course-col">
+                <p>If the student disagrees with the allotted internal marks split-up, he/she has the option to change their internal marks by clicking the option "Click here to change the Reward Points" which is located above the Internal mark distribution and follow the instructions 3-6. (given below).</p>
+            </div>
+            <div class="course-col">
+                <p>Students are asked to redeem from their own bitsathy mail id during redemption. Redeeming using other student's mail id will allocate null redemption to both students automatically. Hence ensure your mail id before redemption.</p>
+            </div>
+            <div class="course-col">
+                <p>Students are asked not to edit anything in the redemption google form and only enter the reward points for subjects error-free without haste. Mistakes done during redemption will not be considered at any cause.</p>
+            </div>
+            <div class="course-col">
+                <p>Add-on courses are exempted from redemption. Hence do not redeem the reward points for those subjects.</p>
+            </div>
+            <div class="course-col">
+                <p>Students who have not redeemed his/her reward points within the due date, will not be given any extension period for redemption. Rewards team will take the sole responsibility to divide the reward points earned by those students and will redeem equally for all the subjects.</p>
+            </div>
+    </section>
+
+
+
+    <!---testimonials---------->
+
+
+    <!---Call To Action------------->
+    <section class="cta">
+        <h3 style="color: azure">In connection with any queries <br>or<br> clarifications regarding any of the reward point activities</h3>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+     <hr>
+    <!---Footer------------->
+     <section class="footer">
+       <h4>About Us</h4>
+       <p> SKILL DEVELOPMENT TEAM @ BANNARI AMMAN INSTITUTE OF TECHNOLOGY, SATHYAMANGALAM</p>
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by BIT'S HACK'22 </p>
+    </section>
+
+    <!---JavaScript for Toogle Menu-------------->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right="0";
+       }
+       function hideMenu(){
+           navLinks.style.right="-200px";
+       }
+   </script>
+
+</body>
+</html>
